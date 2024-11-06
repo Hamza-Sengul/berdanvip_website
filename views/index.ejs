@@ -1,0 +1,28 @@
+<%- include('./partials/_header.ejs') %>
+
+<section class="main">
+  <div class="main-container">
+    <h3 class="headline1"><%= siteAyarları.anasayfaBasligi%></h3>
+    <p class="headline3"><%= siteAyarları.anasayfaAltBasligi %></p>
+  </div>
+</section>
+
+<section class="services"><%- include('./partials/_myServices.ejs') %></section>
+
+<section class="packets">
+  <div class="packets-container">
+    <h3 class="headline1">Düğün & toplantı & İftar Paketlerimiz</h3>
+    <p class="headline1">Rekabetçi fiyatlarımız ile özel teklifler alın.</p>
+    <div class="packet-wrapper">
+      <% paketler.forEach(paketler => { %>
+      <div class="packet-item headline1">
+        <h4><%= paketler.paketBasligi %></h4>
+        <p><%= paketler.paketAciklamasi %></p>
+        <button id="contact-button">Teklif Al</button>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</section>
+
+<%- include('./partials/_footer.ejs') %>

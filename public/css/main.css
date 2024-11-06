@@ -1,0 +1,26 @@
+.main {
+  width: 100%;
+  height: 84vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/pexels-edwardeyer-1045541.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.main-container {
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(3px);
+  border-radius: 12px;
+  color: #fff;
+}
+.main-container h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.main-container p {
+  font-size: 25px;
+  margin-top: 30px;
+}

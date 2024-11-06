@@ -1,0 +1,27 @@
+.hakkımda {
+  padding: 10px 15%;
+  height: 80vh;
+}
+.hakkımda h2 {
+  font-size: 40px;
+}
+.hakkımda p {
+  font-size: 17px;
+}
+.hakkımda span {
+  font-weight: bold;
+}
+.hakkimda-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.hakkimda-wrapper {
+  margin-top: 40px;
+}
+.hakkimda-wrapper h3 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+.hakkimda-wrapper p {
+  font-size: 19px;
+}

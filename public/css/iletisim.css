@@ -1,0 +1,29 @@
+.iletisim-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.iletisim-item {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+}
+.item-top {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.item-top i {
+  position: absolute;
+  font-size: 20px;
+  top: -9px;
+  left: 42%;
+  background-color: #fff;
+  width: 50px;
+}

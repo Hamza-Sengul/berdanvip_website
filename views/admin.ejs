@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Paneli</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+
+      form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #555;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="file"],
+      textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+      }
+
+      button:hover {
+        background-color: #218838;
+      }
+
+      .section {
+        margin-top: 40px;
+      }
+
+      .packet-item,
+      .services-wrapper-item {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .packet-item:hover,
+      .services-wrapper-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .packet-item h4,
+      .services-wrapper-item h3 {
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 1.5em;
+      }
+
+      .packet-item p,
+      .services-wrapper-item p {
+        font-size: 1em;
+        color: #666;
+        margin-bottom: 15px;
+      }
+
+      .packet-item button,
+      .services-wrapper-item button {
+        background-color: #dc3545;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+      }
+
+      .packet-item button:hover,
+      .services-wrapper-item button:hover {
+        background-color: #c82333;
+      }
+
+      .wrapper-left,
+      .wrapper-right {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .wrapper-left img {
+        max-width: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+        height: 200px;
+      }
+
+      .wrapper-right h3 {
+        font-size: 1.3em;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .wrapper-right p {
+        font-size: 1em;
+        color: #666;
+      }
+
+      .photos-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin: 20px 0;
+        align-items: center;
+      }
+
+      .photos-wrapper img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .photos-wrapper img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .photos-wrapper button {
+        display: block;
+        width: 100%;
+        height: 100px;
+        background-color: #dc3545;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .photos-wrapper button:hover {
+        background-color: #c82333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Admin Paneli</h1>
+
+    <!-- Genel Ayarlar -->
+    <form action="/admin/update" method="POST">
+      <h2>Genel Ayarlar</h2>
+      <label for="siteBasligi">Site Başlığı:</label>
+      <input type="text" id="siteBasligi" name="siteBasligi" required />
+
+      <label for="anasayfaBasligi">Anasayfa Başlığı:</label>
+      <input type="text" id="anasayfaBasligi" name="anasayfaBasligi" required />
+
+      <label for="anasayfaAltBasligi">Anasayfa Alt Başlığı:</label>
+      <input
+        type="text"
+        id="anasayfaAltBasligi"
+        name="anasayfaAltBasligi"
+        required
+      />
+
+      <label for="anaSayfaImg">Anasayfa Resmi:</label>
+      <input type="file" id="anaSayfaImg" name="anaSayfaImg" required />
+
+      <label for="telNo">Telefon Numarası:</label>
+      <input type="text" id="telNo" name="telNo" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="adres">Adres:</label>
+      <textarea id="adres" name="adres" required></textarea>
+
+      <label for="calismaSaatleriHaftaIci">Çalışma Saatleri (Hafta İçi):</label>
+      <input
+        type="text"
+        id="calismaSaatleriHaftaIci"
+        name="calismaSaatleriHaftaIci"
+        required
+      />
+
+      <label for="calismaSaatleriHaftaSonu"
+        >Çalışma Saatleri (Hafta Sonu):</label
+      >
+      <input
+        type="text"
+        id="calismaSaatleriHaftaSonu"
+        name="calismaSaatleriHaftaSonu"
+        required
+      />
+
+      <button type="submit">Genel Ayarları Güncelle</button>
+    </form>
+
+    <!-- Paketler -->
+    <div class="section">
+      <h2>Paketler</h2>
+      <form action="/admin/paketler" method="POST">
+        <label for="paketBasligi">Paket Başlığı:</label>
+        <input type="text" id="paketBasligi" name="paketBasligi" required />
+
+        <label for="paketAciklamasi">Paket Açıklaması:</label>
+        <textarea
+          id="paketAciklamasi"
+          name="paketAciklamasi"
+          required
+        ></textarea>
+
+        <button type="submit">Paket Ekle</button>
+      </form>
+    </div>
+
+    <!-- Salonlar -->
+    <div class="section">
+      <h2>Salonlar</h2>
+      <form
+        action="/admin/salonlar"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <label for="salonImg">Salon Görseli:</label>
+        <input type="file" id="salonImg" name="salonImg" required />
+
+        <button type="submit">Salon Görseli Ekle</button>
+      </form>
+    </div>
+
+    <!-- Hizmetler -->
+    <div class="section">
+      <h2>Hizmetler</h2>
+      <form
+        action="/admin/hizmetler"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <label for="hizmetBasligi">Hizmet Başlığı:</label>
+        <input type="text" id="hizmetBasligi" name="hizmetBasligi" required />
+
+        <label for="hizmetImg">Hizmet Görseli:</label>
+        <input type="file" id="hizmetImg" name="hizmetImg" required />
+
+        <label for="hizmetAciklama">Hizmet Açıklaması:</label>
+        <textarea id="hizmetAciklama" name="hizmetAciklama" required></textarea>
+
+        <button type="submit">Hizmet Ekle</button>
+      </form>
+    </div>
+
+    <!-- Hakkımızda -->
+    <div class="section">
+      <h2>Hakkımızda</h2>
+      <form action="/admin/hakkimizda" method="POST">
+        <label for="hakkimizdaBaslik">Hakkımızda Başlığı:</label>
+        <input
+          type="text"
+          id="hakkimizdaBaslik"
+          name="hakkimizdaBaslik"
+          required
+        />
+
+        <label for="hakkimizdaAciklama">Hakkımızda Açıklaması:</label>
+        <textarea
+          id="hakkimizdaAciklama"
+          name="hakkimizdaAciklama"
+          required
+        ></textarea>
+
+        <button type="submit">Hakkımızda Bilgilerini Ekle</button>
+      </form>
+    </div>
+    <!-- Paketler -->
+    <h2>Paketler</h2>
+    <br /><br /><br />
+    <% paketler.forEach(paketler => { %>
+    <div class="packet-item headline1">
+      <h4><%= paketler.paketBasligi %></h4>
+      <p><%= paketler.paketAciklamasi %></p>
+      <button
+        id="delete-packet"
+        style="background-color: red"
+        onclick="romevoPacket(event,<%= paketler.id %>)"
+      >
+        Sil
+      </button>
+    </div>
+    <% }); %>
+    <!-- Hizmetler -->
+    <h2>Hizmetler</h2>
+    <% hizmetler.forEach(hizmetler => { %>
+    <div class="services-wrapper-item">
+      <div class="wrapper-left headline1">
+        <img src="/uploads/<%= hizmetler.hizmetImg %>" alt="" />
+      </div>
+
+      <div class="wrapper-right headline2">
+        <h3><%= hizmetler.hizmetBasligi %></h3>
+        <p><%= hizmetler.hizmetAciklama %></p>
+        <button
+          id="delete-services"
+          style="background-color: red"
+          onclick="romevoServices(event,<%= hizmetler.id %>)"
+        >
+          Sil
+        </button>
+      </div>
+    </div>
+    <% }); %>
+    <!-- Fotoğraflar -->
+    <h2>Fotoğraflar</h2>
+
+    <% salonlar.forEach(salonlar => { %>
+    <div class="photos-wrapper">
+      <img
+        style="width: 400px"
+        class="headline1"
+        src="/uploads/<%= salonlar.salonImg %>"
+        alt=""
+      />
+      <button
+        id="delete-photos"
+        style="background-color: red"
+        onclick="romevoPhotos(event,<%= salonlar.id %>)"
+      >
+        Sil
+      </button>
+    </div>
+    <% }); %>
+
+    <script>
+      function romevoPacket(e, packetId) {
+        if (e.target.id == "delete-packet") {
+          // Kullanıcıya silme işlemi için onay sorusu
+          const confirmDelete = confirm(
+            "Bu paketi silmek istediğinizden emin misiniz?"
+          );
+
+          if (confirmDelete) {
+            // Veritabanından silme isteği gönderiliyor
+            fetch(`/admin/delete-packet/${packetId}`, {
+              method: "DELETE",
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                if (data.success) {
+                  e.target.parentElement.remove(); // UI'dan öğeyi kaldır
+                } else {
+                  console.error("Silme işlemi başarısız oldu");
+                }
+              })
+              .catch((error) => console.error("Hata:", error));
+          } else {
+            console.log("Silme işlemi iptal edildi");
+          }
+        }
+      }
+
+      function romevoServices(e, packetId) {
+        if (e.target.id == "delete-services") {
+          // Kullanıcıya silme işlemi için onay sorusu
+          const confirmDelete = confirm(
+            "Bu hizmeti silmek istediğinizden emin misiniz?"
+          );
+
+          if (confirmDelete) {
+            // Veritabanından silme isteği gönderiliyor
+            fetch(`/admin/delete-services/${packetId}`, {
+              method: "DELETE",
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                if (data.success) {
+                  e.target.parentElement.remove(); // UI'dan öğeyi kaldır
+                } else {
+                  console.error("Silme işlemi başarısız oldu");
+                }
+              })
+              .catch((error) => console.error("Hata:", error));
+          } else {
+            console.log("Silme işlemi iptal edildi");
+          }
+        }
+      }
+      function romevoPhotos(e, packetId) {
+        if (e.target.id == "delete-photos") {
+          // Kullanıcıya silme işlemi için onay sorusu
+          const confirmDelete = confirm(
+            "Bu Fotoğrafı silmek istediğinizden emin misiniz?"
+          );
+
+          if (confirmDelete) {
+            // Veritabanından silme isteği gönderiliyor
+            fetch(`/admin/delete-photos/${packetId}`, {
+              method: "DELETE",
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                if (data.success) {
+                  e.target.parentElement.remove(); // UI'dan öğeyi kaldır
+                } else {
+                  console.error("Silme işlemi başarısız oldu");
+                }
+              })
+              .catch((error) => console.error("Hata:", error));
+          } else {
+            console.log("Silme işlemi iptal edildi");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<%- include('./partials/_header.ejs',) %>
+<section class="hizmetler">
+  <div class="hakkimda-container">
+    <h2>İLETİŞİM</h2>
+    <p><span>Ana Sayfa / </span>İletişim</p>
+  </div>
+  <div class="iletisim-wrapper">
+    <div class="iletisim-item headline1">
+      <div class="item-top">
+        <i class="fa-solid fa-phone"></i>
+        <span>Telefon</span>
+      </div>
+      <div class="item-bottom">
+        <p><%= siteAyarları.telNo %></p>
+      </div>
+    </div>
+    <div class="iletisim-item headline2">
+      <div class="item-top">
+        <i class="fa-solid fa-envelope"></i>
+        <span>E-Posta</span>
+      </div>
+      <div class="item-bottom">
+        <p><%= siteAyarları.email %></p>
+      </div>
+    </div>
+    <div class="iletisim-item headline3">
+      <div class="item-top">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Adres</span>
+      </div>
+      <div class="item-bottom">
+        <p><%= siteAyarları.adres %></p>
+      </div>
+    </div>
+    <div class="iletisim-item headline2">
+      <div class="item-top">
+        <i class="fa-solid fa-clock"></i>
+        <span>Çalışma Saatlerimiz</span>
+      </div>
+      <div class="item-bottom">
+        <p><b>Hafta İçi:</b><%= siteAyarları.calismaSaatleriHaftaIci %></p>
+        <p><b>Hafta Sonu:</b> <%= siteAyarları.calismaSaatleriHaftaSonu %></p>
+      </div>
+    </div>
+  </div>
+</section>
+<%- include('./partials/_footer.ejs') %>

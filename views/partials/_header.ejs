@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="links-box">
+      <div class="links-box-left">
+        <p><i class="fa-solid fa-phone"> </i><%= siteAyarları.telNo %></p>
+        <p><i class="fa-solid fa-envelope"> </i><%= siteAyarları.email %></p>
+      </div>
+      <div class="links-box-right">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header-container">
+        <div class="header-container-left">
+          <img
+            src="/img/wedding-couple.png"
+            class="logo-img headline1"
+            alt=""
+          />
+          <h2 class="headline1">
+            <a href="/"><%= siteAyarları.siteBasligi %></a>
+          </h2>
+        </div>
+        <div class="header-container-right headline2">
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+          </div>
+          <ul>
+            <li><a href="/">Ana Sayfa</a></li>
+            <li><a href="/about">Hakkımızda</a></li>
+            <li><a href="/services">Hizmetlerimiz</a></li>
+            <li><a href="/photos">Salonumuz</a></li>
+            <li><a href="/contact">İletişim</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- SİDEBAR START -->
+    <div class="sidebar">
+      <div class="sidebar-container">
+        <i class="fa-solid fa-x" id="close-icon"></i>
+        <ul>
+          <li><a href="/">Ana Sayfa</a></li>
+          <li><a href="/about">Hakkımızda</a></li>
+          <li><a href="/services">Hizmetlerimiz</a></li>
+          <li><a href="/photos">Salonumuz</a></li>
+          <li><a href="/contact">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- SİDEBAR END -->
+  </body>
+</html>

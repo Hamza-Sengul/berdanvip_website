@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Akaya+Kanadaka&family=Lexend:wght@100..900&family=Poiret+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Afacad Flux", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}

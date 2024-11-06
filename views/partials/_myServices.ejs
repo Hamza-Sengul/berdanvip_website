@@ -1,0 +1,14 @@
+<div class="services-wrapper">
+  <% hizmetler.forEach(hizmetler => { %>
+  <div class="services-wrapper-item">
+    <div class="wrapper-left headline1">
+      <img src="/uploads/<%= hizmetler.hizmetImg %>" alt="" />
+    </div>
+
+    <div class="wrapper-right headline2">
+      <h3><%= hizmetler.hizmetBasligi %></h3>
+      <p><%= hizmetler.hizmetAciklama %></p>
+    </div>
+  </div>
+  <% }); %>
+</div>

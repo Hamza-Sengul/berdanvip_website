@@ -1,0 +1,55 @@
+.packets {
+  margin-top: 40px;
+  padding: 30px 15%;
+  text-align: center;
+  background-color: #ab8b40;
+}
+.packet-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.packet-item {
+  width: 300px;
+  height: 200px;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 6px 37px -5px rgba(0, 0, 0, 0.83);
+  -webkit-box-shadow: 2px 6px 37px -5px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: 2px 6px 37px -5px rgba(0, 0, 0, 0.83);
+  background-color: #202020;
+}
+.packet-item h4 {
+  font-size: 25px;
+  color: #ab8b40;
+}
+.packets h3 {
+  font-size: 40px;
+}
+.packets-container p {
+  font-size: 25px;
+}
+.packet-item p {
+  color: #fff;
+}
+.packet-item button {
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: #bbab85;
+  color: #202020;
+  cursor: pointer;
+}
+.packet-item button:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}

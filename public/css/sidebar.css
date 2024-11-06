@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 40px;
+  right: -200px;
+  z-index: 100;
+}
+.sidebar.active {
+  right: 0;
+  transition: 0.5s ease all;
+}
+
+.sidebar-container i {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sidebar-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.sidebar-container ul li {
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+.sidebar-container ul li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.sidebar-container ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,15 @@
+.hizmetler {
+  margin-bottom: 30px;
+}
+.hizmetler {
+  padding: 10px 15%;
+}
+.hizmetler h2 {
+  font-size: 40px;
+}
+.hizmetler p {
+  font-size: 17px;
+}
+.hizmetler span {
+  font-weight: bold;
+}

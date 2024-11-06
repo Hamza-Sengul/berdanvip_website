@@ -1,0 +1,23 @@
+.salonumuz-wrapper img {
+  width: 400px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.salonumuz-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.salonumuz-wrapper img:hover {
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
+@media only screen and (max-width: 450px) {
+  .salonumuz-wrapper img {
+    width: 300px;
+    height: 230px;
+  }
+}

@@ -1,0 +1,16 @@
+footer {
+  padding: 10px 15%;
+  background-color: #202020;
+  color: #fff;
+}
+.footer-container ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.footer-container ul li a {
+  color: #fff;
+  font-size: 15px;
+}

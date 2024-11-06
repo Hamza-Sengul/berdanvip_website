@@ -1,0 +1,13 @@
+<%- include('./partials/_header.ejs') %>
+<section class="hizmetler">
+  <div class="hakkimda-container">
+    <h2>SALONUMUZ</h2>
+    <p><span>Ana Sayfa / </span>Salonumuz</p>
+  </div>
+  <div class="salonumuz-wrapper">
+    <% salonlar.forEach(salonlar => { %>
+    <img class="headline1" src="/uploads/<%= salonlar.salonImg %>" alt="" />
+    <% }); %>
+  </div>
+</section>
+<%- include('./partials/_footer.ejs') %>
