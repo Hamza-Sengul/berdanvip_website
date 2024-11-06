@@ -1,0 +1,517 @@
+2024-10-22 15:38:03 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 2252
+2024-10-22 15:38:03 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 15:38:03 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 15:38:03 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 15:38:03 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 15:38:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 15:38:03 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 15:38:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 15:38:03 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2024-10-22 15:38:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 15:38:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-22 15:38:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 15:38:04 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 15:38:04 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 15:38:04 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 15:38:04 0 [Note] InnoDB: 10.4.32 started; log sequence number 300297; transaction id 170
+2024-10-22 15:38:04 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 15:38:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 15:38:04 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 15:38:04
+2024-10-22 15:38:04 0 [Note] Server socket created on IP: '::'.
+2024-10-22 22:48:08 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 9936
+2024-10-22 22:48:08 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:48:08 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:48:08 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:48:08 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:48:08 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:48:08 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:48:08 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:48:08 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:48:08 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:48:08 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:48:08 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=565800
+2024-10-22 22:48:08 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:48:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-22 22:48:08 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:48:08 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:48:08 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:48:08 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:48:08 0 [Note] InnoDB: 10.4.32 started; log sequence number 565809; transaction id 879
+2024-10-22 22:48:08 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:48:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:48:08 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:48:08 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:48:08 0 [ERROR] Aborting
+2024-10-22 22:48:53 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 13364
+2024-10-22 22:48:53 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:48:53 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:48:53 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:48:53 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:48:53 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:48:53 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:48:53 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:48:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:48:53 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:48:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:48:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:48:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:48:53 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:48:53 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:48:53 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:48:53 0 [Note] InnoDB: 10.4.32 started; log sequence number 565818; transaction id 879
+2024-10-22 22:48:53 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:48:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:48:53 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:48:53 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:48:53 0 [ERROR] Aborting
+2024-10-22 22:50:00 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 20888
+2024-10-22 22:50:00 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:50:00 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:50:00 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:50:00 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:50:00 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:50:00 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:50:00 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:50:00 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:50:00 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:50:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:50:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:50:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:50:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:50:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:50:00 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:50:00 0 [Note] InnoDB: 10.4.32 started; log sequence number 565827; transaction id 879
+2024-10-22 22:50:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:50:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:50:00 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:50:00
+2024-10-22 22:50:00 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:50:00 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:50:00 0 [ERROR] Aborting
+2024-10-22 22:50:04 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 18616
+2024-10-22 22:50:04 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:50:04 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:50:04 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:50:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:50:04 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:50:04 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:50:04 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:50:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:50:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:50:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:50:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:50:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:50:05 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:50:05 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:50:05 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:50:05 0 [Note] InnoDB: 10.4.32 started; log sequence number 565836; transaction id 879
+2024-10-22 22:50:05 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:50:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:50:05 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:50:05
+2024-10-22 22:50:05 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:50:05 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:50:05 0 [ERROR] Aborting
+2024-10-22 22:50:08 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 2884
+2024-10-22 22:50:08 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:50:08 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:50:08 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:50:08 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:50:08 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:50:08 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:50:08 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:50:08 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:50:08 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:50:08 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:50:08 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:50:08 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:50:08 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:50:08 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:50:08 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:50:08 0 [Note] InnoDB: 10.4.32 started; log sequence number 565845; transaction id 879
+2024-10-22 22:50:08 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:50:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:50:08 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:50:08
+2024-10-22 22:50:08 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:50:08 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:50:08 0 [ERROR] Aborting
+2024-10-22 22:50:31 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3332
+2024-10-22 22:50:31 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:50:31 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:50:31 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:50:31 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:50:31 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:50:31 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:50:31 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:50:31 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:50:31 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:50:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:50:31 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:50:31 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:50:31 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:50:31 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:50:31 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:50:31 0 [Note] InnoDB: 10.4.32 started; log sequence number 565854; transaction id 879
+2024-10-22 22:50:31 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:50:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:50:31 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:50:31
+2024-10-22 22:50:31 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:50:31 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:50:31 0 [ERROR] Aborting
+2024-10-22 22:51:30 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 8824
+2024-10-22 22:51:30 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:51:30 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:51:30 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:51:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:51:30 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:51:30 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:51:30 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:51:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:51:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:51:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:51:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:51:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:51:30 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:51:30 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:51:30 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:51:30 0 [Note] InnoDB: 10.4.32 started; log sequence number 565863; transaction id 879
+2024-10-22 22:51:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:51:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:51:30 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:51:30
+2024-10-22 22:51:30 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:51:30 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:51:30 0 [ERROR] Aborting
+2024-10-22 22:51:33 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 18496
+2024-10-22 22:51:33 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:51:33 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:51:33 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:51:33 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:51:33 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:51:33 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:51:33 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:51:33 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:51:33 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:51:33 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:51:33 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:51:33 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:51:33 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:51:33 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:51:33 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:51:33 0 [Note] InnoDB: 10.4.32 started; log sequence number 565872; transaction id 879
+2024-10-22 22:51:33 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:51:33 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:51:33 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:51:33
+2024-10-22 22:51:33 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:51:33 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:51:33 0 [ERROR] Aborting
+2024-10-22 22:52:24 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 11892
+2024-10-22 22:52:24 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:52:24 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:52:24 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:52:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:52:24 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:52:24 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:52:24 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:52:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:52:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:52:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:52:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:52:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:52:24 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:52:24 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:52:24 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:52:24 0 [Note] InnoDB: 10.4.32 started; log sequence number 565881; transaction id 879
+2024-10-22 22:52:24 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:52:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:52:24 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:52:24
+2024-10-22 22:52:24 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:52:24 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:52:24 0 [ERROR] Aborting
+2024-10-22 22:52:56 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 2860
+2024-10-22 22:52:56 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:52:56 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:52:56 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:52:56 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:52:56 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:52:56 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:52:56 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:52:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:52:56 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:52:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:52:56 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:52:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:52:56 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:52:56 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:52:56 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:52:56 0 [Note] InnoDB: 10.4.32 started; log sequence number 565890; transaction id 879
+2024-10-22 22:52:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:52:56 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:52:56 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:52:56
+2024-10-22 22:52:56 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:52:56 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:52:56 0 [ERROR] Aborting
+2024-10-22 22:54:06 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 5004
+2024-10-22 22:54:06 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:54:06 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:54:06 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:54:06 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:54:06 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:54:06 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:54:06 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:54:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:54:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:54:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:54:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:54:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:54:06 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:54:06 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:54:06 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:54:06 0 [Note] InnoDB: 10.4.32 started; log sequence number 565899; transaction id 879
+2024-10-22 22:54:06 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:54:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:54:06 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:54:06
+2024-10-22 22:54:06 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:54:06 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:54:06 0 [ERROR] Aborting
+2024-10-22 22:54:10 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 6400
+2024-10-22 22:54:10 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:54:10 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:54:10 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:54:10 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:54:10 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:54:10 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:54:10 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:54:10 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:54:10 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:54:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:54:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:54:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:54:11 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:54:11 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:54:11 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:54:11 0 [Note] InnoDB: 10.4.32 started; log sequence number 565908; transaction id 879
+2024-10-22 22:54:11 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:54:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:54:11 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:54:11
+2024-10-22 22:54:11 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:54:11 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:54:11 0 [ERROR] Aborting
+2024-10-22 22:55:06 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 10484
+2024-10-22 22:55:06 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:55:06 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:55:06 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:55:06 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:55:06 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:55:06 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:55:06 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:55:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:55:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:55:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:55:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:55:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:55:06 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:55:06 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:55:06 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:55:06 0 [Note] InnoDB: 10.4.32 started; log sequence number 565917; transaction id 879
+2024-10-22 22:55:06 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:55:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:55:06 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:55:06
+2024-10-22 22:55:06 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:55:06 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:55:06 0 [ERROR] Aborting
+2024-10-22 22:55:20 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 18608
+2024-10-22 22:55:20 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:55:20 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:55:20 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:55:20 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:55:20 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:55:20 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:55:20 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:55:20 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:55:20 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:55:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:55:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:55:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:55:20 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:55:20 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:55:20 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:55:20 0 [Note] InnoDB: 10.4.32 started; log sequence number 565926; transaction id 879
+2024-10-22 22:55:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:55:20 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:55:20 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:55:20 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 22:55:20
+2024-10-22 22:55:20 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:55:20 0 [ERROR] Aborting
+2024-10-22 22:59:09 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 4504
+2024-10-22 22:59:09 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 22:59:09 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 22:59:09 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 22:59:09 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 22:59:09 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 22:59:09 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 22:59:09 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 22:59:09 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 22:59:09 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 22:59:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 22:59:10 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 22:59:10 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 22:59:10 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 22:59:10 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 22:59:10 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 22:59:10 0 [Note] InnoDB: 10.4.32 started; log sequence number 565935; transaction id 879
+2024-10-22 22:59:10 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 22:59:10 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 22:59:10 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 22:59:10 0 [ERROR] Failed to initialize plugins.
+2024-10-22 22:59:10 0 [ERROR] Aborting
+2024-10-22 23:01:54 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 12468
+2024-10-22 23:01:54 0 [ERROR] mysqld.exe: Aria engine: log data error
+last_log_page:   (1,0x4000) is less than
+checkpoint page: (1,0x6000)
+2024-10-22 23:01:54 0 [ERROR] mysqld.exe: Aria engine: log initialization failed
+2024-10-22 23:01:54 0 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2024-10-22 23:01:54 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 23:01:54 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 23:01:54 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 23:01:54 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 23:01:54 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 23:01:54 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 23:01:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 23:01:54 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 23:01:54 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 23:01:54 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 23:01:54 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 23:01:54 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 23:01:54 0 [Note] InnoDB: 10.4.32 started; log sequence number 565944; transaction id 879
+2024-10-22 23:01:54 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 23:01:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 23:01:54 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 23:01:54
+2024-10-22 23:01:54 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2024-10-22 23:01:54 0 [ERROR] Failed to initialize plugins.
+2024-10-22 23:01:54 0 [ERROR] Aborting
+2024-10-22 23:05:23 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 17112
+2024-10-22 23:05:23 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-10-22 23:05:23 0 [Note] InnoDB: Uses event mutexes
+2024-10-22 23:05:23 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-10-22 23:05:23 0 [Note] InnoDB: Number of pools: 1
+2024-10-22 23:05:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-10-22 23:05:23 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-10-22 23:05:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-22 23:05:23 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2024-10-22 23:05:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-10-22 23:05:23 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-22 23:05:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-22 23:05:23 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-22 23:05:23 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-10-22 23:05:23 0 [Note] InnoDB: Waiting for purge to start
+2024-10-22 23:05:23 0 [Note] InnoDB: 10.4.32 started; log sequence number 300297; transaction id 170
+2024-10-22 23:05:23 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-10-22 23:05:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-22 23:05:23 0 [Note] InnoDB: Buffer pool(s) load completed at 241022 23:05:23
+2024-10-22 23:05:23 0 [Note] Server socket created on IP: '::'.
+2024-10-22 23:05:23 0 [Note] Reading of all Master_info entries succeeded
+2024-10-22 23:05:23 0 [Note] Added new Master_info '' to hash table
+2024-10-22 23:05:23 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2024-10-22 23:05:55 30 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:08:44 66 [ERROR] InnoDB: Table `dugunveritabani_db`.`hakkimizda` does not exist in the InnoDB internal data dictionary though MariaDB is trying to drop it. Have you copied the .frm file of the table to the MariaDB database directory from another database? Please refer to https://mariadb.com/kb/en/innodb-troubleshooting/ for how to resolve the issue.
+2024-10-22 23:09:01 90 [ERROR] InnoDB: Table `dugunveritabani_db`.`hizmetler` does not exist in the InnoDB internal data dictionary though MariaDB is trying to drop it. Have you copied the .frm file of the table to the MariaDB database directory from another database? Please refer to https://mariadb.com/kb/en/innodb-troubleshooting/ for how to resolve the issue.
+2024-10-22 23:09:15 110 [ERROR] InnoDB: Table `dugunveritabani_db`.`paketler` does not exist in the InnoDB internal data dictionary though MariaDB is trying to drop it. Have you copied the .frm file of the table to the MariaDB database directory from another database? Please refer to https://mariadb.com/kb/en/innodb-troubleshooting/ for how to resolve the issue.
+2024-10-22 23:09:29 130 [ERROR] InnoDB: Table `dugunveritabani_db`.`salonlar` does not exist in the InnoDB internal data dictionary though MariaDB is trying to drop it. Have you copied the .frm file of the table to the MariaDB database directory from another database? Please refer to https://mariadb.com/kb/en/innodb-troubleshooting/ for how to resolve the issue.
+2024-10-22 23:09:40 152 [ERROR] InnoDB: Table `dugunveritabani_db`.`site_ayarları` does not exist in the InnoDB internal data dictionary though MariaDB is trying to drop it. Have you copied the .frm file of the table to the MariaDB database directory from another database? Please refer to https://mariadb.com/kb/en/innodb-troubleshooting/ for how to resolve the issue.
+2024-10-22 23:10:58 206 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:10:58 206 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:10:58 206 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:10:58 206 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:11:17 208 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:11:17 208 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:11:17 208 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:11:17 208 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:11:36 224 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:11:36 224 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:11:36 224 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:11:36 224 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:12:35 263 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:13:09 291 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:13:09 291 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:13:09 291 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:13:09 291 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:14:09 293 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:14:09 293 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:14:09 293 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:14:09 293 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:14:16 295 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:14:16 295 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:14:16 295 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:14:16 295 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:21:40 346 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:21:54 347 [Warning] Access denied for user 'furkan@localhost'@'localhost' (using password: YES)
+2024-10-22 23:22:02 348 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:22:48 365 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:23:47 395 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:23:47 395 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:23:47 395 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:23:47 395 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:26:00 437 [ERROR] InnoDB: Operating system error number 80 in a file operation.
+2024-10-22 23:26:00 437 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-10-22 23:26:00 437 [Note] InnoDB: The file '.\dugunveritabani_db\site_ayarlar@2w.ibd' already exists though the corresponding table did not exist in the InnoDB data dictionary. You can resolve the problem by removing the file.
+2024-10-22 23:26:00 437 [ERROR] InnoDB: Cannot create file '.\dugunveritabani_db\site_ayarlar@2w.ibd'
+2024-10-22 23:26:15 438 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:26:24 439 [Warning] Access denied for user 'furkan'@'localhost' (using password: YES)
+2024-10-22 23:32:19 522 [Warning] Aborted connection 522 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:38:40 527 [Warning] Aborted connection 527 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:39:03 726 [Warning] Aborted connection 726 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:39:17 727 [Warning] Aborted connection 727 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:41:29 728 [Warning] Aborted connection 728 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:42:05 729 [Warning] Aborted connection 729 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:42:25 730 [Warning] Aborted connection 730 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:42:40 731 [Warning] Aborted connection 731 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:43:17 732 [Warning] Aborted connection 732 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:44:05 733 [Warning] Aborted connection 733 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:45:54 734 [Warning] Aborted connection 734 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:45:54 735 [Warning] Access denied for user 'furkan'@'localhost' (using password: NO)
+2024-10-22 23:47:55 736 [Warning] Aborted connection 736 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:51:54 737 [Warning] Aborted connection 737 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-22 23:53:42 738 [Warning] Aborted connection 738 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:09:57 739 [Warning] Aborted connection 739 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:10:16 764 [Warning] Aborted connection 764 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:11:35 765 [Warning] Aborted connection 765 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:11:51 766 [Warning] Aborted connection 766 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:12:14 767 [Warning] Aborted connection 767 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:12:46 768 [Warning] Aborted connection 768 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:13:09 769 [Warning] Aborted connection 769 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:13:24 770 [Warning] Aborted connection 770 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:13:32 771 [Warning] Aborted connection 771 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:14:17 772 [Warning] Aborted connection 772 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:14:42 773 [Warning] Aborted connection 773 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:15:24 774 [Warning] Aborted connection 774 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:16:36 775 [Warning] Aborted connection 775 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-10-23  0:19:03 776 [Warning] Aborted connection 776 to db: 'dugunveritabani2_db' user: 'root' host: 'localhost' (Got an error reading communication packets)
